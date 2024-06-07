@@ -6,7 +6,7 @@ $J(\textbf{w}) = \frac{\textbf{w}^T \textbf{S}_B \textbf{w}}{\textbf{w}^T \textb
 
 where $S_B$ and $S_w$ are the between-class and within-class covariance matrices of input data. For the two-class problem, the weight vector is calculated as: 
 
-$\mathbf{w} = S_W^{-1} \left( \mathbf{m}_{m} - \mathbf{m}_{b}\right)$,
+$\textbf{w} = S_W^{-1} \left( \textbf{m}_{m} - \textbf{m}_{b}\right)$,
 
 
 
