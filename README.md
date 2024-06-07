@@ -20,7 +20,14 @@ $g(x) = [\textbf{z} + \frac{1}{2} (m_n + m_b)]^T \textbf{w} $,
 
 
 ```math
-a^2+b^2=c^2
+\begin{align}
+\hat{y} = 
+\begin{cases}
+    \text{malignant}	& \text{if}\;\;g(\mathbf{z})>0, \\
+    \text{benign} & \text{otherwise}. 
+\end{cases}
+\label{eq:rule}
+\end{align}
 ```
 
 
