@@ -20,13 +20,13 @@ $g(x) = [\textbf{z} + \frac{1}{2} (m_n + m_b)]^T \textbf{w} $,
 
 
 ```math
-$$\begin{align}
+\begin{align}
 \hat{y} = 
 \begin{cases}
     \text{m}	& \text{if}\;\;g(\mathbf{x})>0, \\
     \text{b} & \text{otherwise}. 
 \end{cases}
-\label{eq:rule}
-\end{align}$$
+
+\end{align}
 ```
 
