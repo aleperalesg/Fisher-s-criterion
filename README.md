@@ -20,11 +20,11 @@ $g(x) = [\textbf{z} + \frac{1}{2} (m_n + m_b)]^T \textbf{w} $,
 
 and his response is in the range $[- \infty, \infty]$. Thus, the classification rule is 
 
-\begin{align}
+$
 \hat{y} = 
 \begin{cases}
 \end{cases}
-\end{align}
+$
 
 
 
