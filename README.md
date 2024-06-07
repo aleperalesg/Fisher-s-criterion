@@ -6,6 +6,8 @@ $J(\textbf{w}) = \frac{\textbf{w}^T \textbf{S}_B \textbf{w}}{\textbf{w}^T \textb
 
 where $S_B$ and $S_w$ are the between-class and within-class covariance matrices of input data. For the two-class problem, the weight vector is calculated as: 
 
-$\textbf{w} = S^{-1}_{\textbf{W}} (\textbf{m}_m -\textbf{m}_b)$
+$\textbf{W} = S^{-1}_{\textbf{W}} (\textbf{m}_m -\textbf{m}_b)$.
+
+Where $\textbf{W}$ is a optimal vector that project the two classes maximizing betweenclass and minimizing within class variance.
 
 
