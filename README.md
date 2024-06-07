@@ -23,8 +23,8 @@ $g(x) = [\textbf{z} + \frac{1}{2} (m_n + m_b)]^T \textbf{w} $,
 \begin{align}
 \hat{y} = 
 \begin{cases}
-    \text{m}	& \text{if}\;\;g(\mathbf{x})>0, \\
-    \text{b} & \text{otherwise}. 
+    \text{malignant}	& \text{if}\;\;g(\mathbf{z})>0, \\
+    \text{benign} & \text{otherwise}. 
 \end{cases}
 \label{eq:rule}
 \end{align}
