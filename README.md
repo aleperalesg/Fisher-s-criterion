@@ -25,7 +25,7 @@ and his response is in the range $[- \infty, \infty]$. Thus, the classification 
 \begin{cases}
 \end{cases}
 \end{align}
-$
+
 
 
 
