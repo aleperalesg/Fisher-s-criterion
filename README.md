@@ -18,10 +18,9 @@ Finally, discriminant function is given by
 
 $g(x) = [\textbf{z} + \frac{1}{2} (m_n + m_b)]^T \textbf{w} $,
 
-and his response is in the range $[- \infty, \infty]$. Thus, the classification rule is 
 
-$\hat{y} = \\
-$
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
 
 
 
