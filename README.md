@@ -8,7 +8,7 @@ where $S_B$ and $S_w$ are the between-class and within-class covariance matrices
 
 $\textbf{W} = S^{-1}_{\textbf{W}} (\textbf{m}_m -\textbf{m}_b)$.
 
-Where $\textbf{W}$ is a optimal vector that project the two classes maximizing betweenclass and minimizing within class variance and  $S^{−1}_W$ is the inverse of $S_W$, also  $m_b$ and $m_m$  are mean vectors of the two classes .
+Where $\textbf{W}$ is a optimal vector that project the two classes maximizing betweenclass and minimizing within class variance and  $S^{−1}_W$ is the inverse of $S_W$, also  $m_b$ and $m_m$  are mean vectors of class $b$ and $m$ .
 
 Images below shows an optimal vector that was gotten by fisher's criteron and a non optimal vector:
 
@@ -16,6 +16,16 @@ Images below shows an optimal vector that was gotten by fisher's criteron and a 
 
 Finally, discriminant function is given by
 
-$g(x) = [\textbf{z} + \frac{1}{2} (m_n + m_b)]^T \textbf{w}  $
+$g(x) = [\textbf{z} + \frac{1}{2} (m_n + m_b)]^T \textbf{w} $,
+
+and his response is in the range $[- \infty, \infty]$. Thus, the classification rule is 
+
+$ \hat{y} = 
+\begin{cases}
+    \text{malignant}	& \text{if}\;\;g(\mathbf{z})>0, \\
+    \text{benign} & \text{otherwise}. 
+\end{cases}
+$
+
 
 
