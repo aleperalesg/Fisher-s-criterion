@@ -16,4 +16,4 @@ Images below shows an optimal vector that was gotten by fisher's criteron and a 
 
 Finally, discriminant function is given by
 
-$g(x) = [\textbf{z} + \frac{1}{2} ($m_b$ + $m_m$)]^T \textbf{W}$
+$g(x) = [\textbf{z} + \fracc{1}{2} ($m_b$ + $m_m$)]^T \textbf{W}$
