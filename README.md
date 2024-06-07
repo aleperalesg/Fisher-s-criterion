@@ -19,8 +19,8 @@ Finally, discriminant function is given by
 $g(x) = [\textbf{z} + \frac{1}{2} (m_n + m_b)]^T \textbf{w} $,
 
 
-```math$$
-\begin{align}
+```math
+$$\begin{align}
 \hat{y} = 
 \begin{cases}
     \text{m}	& \text{if}\;\;g(\mathbf{x})>0, \\
