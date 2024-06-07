@@ -16,4 +16,6 @@ Images below shows an optimal vector that was gotten by fisher's criteron and a 
 
 Finally, discriminant function is given by
 
-$g(x) = []^T$
+$g(x) = [\textbf{z}]^T $
+
+
