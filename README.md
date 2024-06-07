@@ -21,10 +21,7 @@ $g(x) = [\textbf{z} + \frac{1}{2} (m_n + m_b)]^T \textbf{w} $,
 and his response is in the range $[- \infty, \infty]$. Thus, the classification rule is 
 
 $ \hat{y} = 
-\begin{cases}
-    \text{malignant}	& \text{if}\;\;g(\mathbf{z})>0, \\
-    \text{benign} & \text{otherwise}. 
-\end{cases}
+
 $
 
 
