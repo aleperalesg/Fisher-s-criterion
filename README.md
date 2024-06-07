@@ -22,8 +22,7 @@ and his response is in the range $[- \infty, \infty]$. Thus, the classification 
 
 $
 \hat{y} = 
-\begin{cases}
-\end{cases}
+
 $
 
 
