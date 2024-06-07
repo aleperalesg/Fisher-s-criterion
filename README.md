@@ -32,5 +32,6 @@ tion rule is
 \end{align}
 ```
 
+Images below shows dataset distribution and the kernel density estimation of predictions of Fisher's linear discriminant for binary classification:
 
-
+![fc2](https://github.com/aleperalesg/Fisher-s-criterion/assets/120703609/bc60e533-922d-4664-97c0-6f1a0a3b7a10)
