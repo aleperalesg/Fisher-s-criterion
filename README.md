@@ -18,8 +18,7 @@ Finally, discriminant function is given by
 
 $g(x) = [\textbf{z} + \frac{1}{2} (m_n + m_b)]^T \textbf{w} $,
 
-whose response is in the range $[−∞, ∞]$. Thus, the classifica-
-tion rule is
+whose response is in the range $[−∞, ∞]$. Thus, the classification rule is
 
 ```math
 \begin{align}
